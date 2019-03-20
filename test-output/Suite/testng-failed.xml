@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="4" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.aditya.docker.GoogleSearchChrome">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="googleSearch"/>
+        </methods>
+      </class> <!-- com.aditya.docker.GoogleSearchChrome -->
+      <class name="com.aditya.docker.GoogleSearchFirefox">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.aditya.docker.GoogleSearchFirefox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="149936" started-at="2018-12-26T06:57:21Z" finished-at="2018-12-26T06:59:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="149936" started-at="2018-12-26T06:57:21Z" finished-at="2018-12-26T06:59:51Z">
+      <class name="com.aditya.docker.GoogleSearchFirefox">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aditya.docker.GoogleSearchFirefox@467aecef]" name="setUp" is-config="true" duration-ms="67068" started-at="2018-12-26T06:57:21Z" finished-at="2018-12-26T06:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.aditya.docker.GoogleSearchFirefox@467aecef]" name="googleSearch" duration-ms="53775" started-at="2018-12-26T06:58:28Z" description="Searching in youtube" finished-at="2018-12-26T06:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aditya.docker.GoogleSearchFirefox@467aecef]" name="tearDown" is-config="true" duration-ms="29033" started-at="2018-12-26T06:59:22Z" finished-at="2018-12-26T06:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aditya.docker.GoogleSearchFirefox -->
+      <class name="com.aditya.docker.GoogleSearchChrome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aditya.docker.GoogleSearchChrome@4d50efb8]" name="setUp" is-config="true" duration-ms="58467" started-at="2018-12-26T06:57:21Z" finished-at="2018-12-26T06:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.aditya.docker.GoogleSearchChrome@4d50efb8]" name="googleSearch" duration-ms="75709" started-at="2018-12-26T06:58:19Z" description="Searching in youtube" finished-at="2018-12-26T06:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aditya.docker.GoogleSearchChrome@4d50efb8]" name="tearDown" is-config="true" duration-ms="1633" started-at="2018-12-26T06:59:35Z" finished-at="2018-12-26T06:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aditya.docker.GoogleSearchChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
